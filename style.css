@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.nav-link:hover {
+    color: white;
+    background: #ffdba9;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: white;
+    background: #ffdba9;
+}
+
+.main {
+    background-image: url('pexels-jessbaileydesign-743986.jpg');
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    overflow: hidden;
+
+}
+.main img{
+    height: 100vh;
+    
+}
+.main h3 {
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+
+}
+
+.main h6 {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.about {
+    padding: 30px;
+    height: 60%;
+
+}
+
+.head {
+    display: flex;
+
+    margin-top: 40px;
+
+}
+
+.image {
+
+    width: 45%;
+    text-align: right;
+
+}
+
+.image img {
+    height: 400px;
+    text-align: right;
+
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.para {
+    padding-left: 50px;
+    padding-right: 260px;
+    width: 65%;
+}
+
+.skill {
+
+    background: rgb(47, 47, 57);
+    background: linear-gradient(9deg, rgba(47, 47, 57, 1) 0%, rgba(128, 128, 150, 1) 0%, rgba(50, 51, 54, 1) 0%, rgba(197, 197, 199, 1) 1%, rgba(231, 235, 235, 1) 100%);
+    height: fit-content;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.ms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.myskill img {
+    height: 150px;
+    box-shadow: 40px 37px 26px -3px rgba(0, 0, 0, 0.75), -35px -30px 26px -3px rgba(245, 240, 240, 0.75);
+
+}
+
+.myskill {
+    width: 30%;
+    padding: 30px;
+}
+
+.myskill img:hover {
+
+    transition-duration: 800ms;
+    transform: rotate3d(0, 1, 0, 360deg) scale(1.3);
+
+
+}
+
+
+#contact {
+    text-align: center; /* Center the content within the section */
+    padding: 5rem 0; /* Add some top and bottom padding */
+  }
+  
+  /* Style the headline */
+  .h-primary.center {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    margin-bottom: 2rem; /* Add some space below the headline */
+  }
+  
+  /* Style the contact box container */
+  #contact-box {
+    display: inline-block; /* Allow other elements to flow around the form */
+    background-color: #ffeecb; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 3rem; /* Add some padding inside the box */
+    max-width: 600px; /* Limit form width on larger screens */
+    width: 100%; /* Ensure form fills available space */
+  }
+  
+  /* Style the form itself */
+  #contact-box form {
+    display: flex; /* Arrange form elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
+  }
+  
+  /* Style each form group */
+  .form-group {
+    margin-bottom: 1rem; /* Add space between groups */
+    width: calc(50% - 1rem); /* Each group takes up half the width, minus margin */
+  }
+  
+  /* Style the labels */
+  label {
+    display: block; /* Labels on separate lines */
+    margin-bottom: 0.5rem; /* Space between label and input */
+    font-weight: bold; /* Emphasize labels */
+  }
+  
+  /* Style the input and textarea elements */
+  input[type="text"], input[type="email"], input[type="phone"], textarea {
+    display: block; /* Inputs take up full width */
+    width: 100%;
+    padding: 1rem; /* Increase padding for a more modern feel */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Slightly more rounded corners */
+    font-size: 16px; /* Consistent font size */
+    resize: vertical; /* Allow resizing textarea */
+  }
+  
+  /* Style the input/textarea elements on focus */
+  input[type="text"]:focus, input[type="email"]:focus, input[type="phone"]:focus, textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #66afeb; /* Blue border on focus for clarity */
+  }
+  
+  /* Style the submit button */
+  #sub {
+    display: block; /* Button on separate line */
+    width: 100%;
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    margin-top: 1rem; /* Space between form and button */
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* No border on button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate button functionality */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  #sub:hover {
+    background-color: #2980b9; /* Darken button on hover */
+  }
+  footer {
+    background-color: #222; /* Dark gray background */
+    padding: 1rem 2rem; /* Add some padding */
+    text-align: center; /* Center the content */
+    font-size: 0.8rem; /* Smaller font size for a cleaner look */
+    color: #ddd; /* Light gray text color */
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem; /* Space between copyright and social links */
+  }
+  
+  .social-links {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Arrange social links horizontally */
+    justify-content: center; /* Center links within the footer */
+  }
+  
+  .social-links li {
+    margin: 0 1rem; /* Space between social icons */
+  }
+  
+  .social-links a {
+    color: inherit; /* Inherit text color from footer */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .social-links i {
+    font-size: 1.2rem; /* Font size for social icons */
+    color: #ddd; /* Light gray color for icons */
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out; /* Smooth hover effects */
+  }
+  
+  .social-links a:hover i {
+    transform: scale(1.1); /* Slightly enlarge icons on hover */
+    color: #fff; /* Change icon color on hover */
+  }
+  
+  /* Font Awesome icons (optional): Replace placeholders with actual links */
+  /* You can download Font Awesome from https://fontawesome.com/ */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
